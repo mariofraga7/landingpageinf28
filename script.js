@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (form) {
       form.addEventListener("submit", function (e) {
         e.preventDefault();
-  
-        // Aqui você poderia adicionar validação extra ou enviar dados para backend
+
   
         sucesso.classList.remove("d-none");
         form.reset();
